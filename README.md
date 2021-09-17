@@ -10,4 +10,4 @@ What this plugin *basically* does is to force custom mob drops when a mob dies (
 If you're having any issue related to this plugin, feel free to create a new Issue.
 We *probably* won't add more features, however, feel free to open a request if you think that we should add anything else. And if anyone else wants to maintain the plugin, also feel free to open a Pull request and we'll check it out!
 
-**Thanks to Segu for developing this plugin.**
+**Thanks to [Segu](https://github.com/segu23) for developing this plugin.**
