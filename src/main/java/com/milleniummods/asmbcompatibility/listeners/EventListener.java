@@ -30,13 +30,13 @@ public class EventListener implements Listener {
             try{
                 mythicMob.getDropTable().generate(dropMetadata).drop(abstractLocation);
             }catch (Exception e){}
-            try{
-                // Add Entity Kill Statistic
-                Player player = event.getEntity().getKiller();
-                assert player != null;
-                int oldKills = player.getStatistic(Statistic.KILL_ENTITY, event.getEntity().getType());
-                player.setStatistic(Statistic.KILL_ENTITY, event.getEntity().getType(), oldKills+1);
-            }catch (Exception e){}
+        }catch (Exception e){}
+        try{
+            // Add Entity Kill Statistic
+            Player player = event.getEntity().getKiller();
+            assert player != null;
+            int oldKills = player.getStatistic(Statistic.KILL_ENTITY, event.getEntity().getType());
+            player.setStatistic(Statistic.KILL_ENTITY, event.getEntity().getType(), oldKills+1);
         }catch (Exception e){}
     }
 }
