@@ -1,0 +1,8 @@
+name: ASMB-Compatibility
+version: '${project.version}'
+main: com.milleniummods.asmbcompatibility.ASMBCompatibility
+api-version: 1.13
+authors: [ segu23 ]
+website: https://milleniummods.com/
+depend: [MythicMobs]
+loadbefore: [MythicMobs]
